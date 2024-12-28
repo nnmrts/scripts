@@ -1,0 +1,6 @@
+.env
+node_modules
+kv.sqlite
+kv.sqlite-shm
+kv.sqlite-wal
+/inputs

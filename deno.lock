@@ -1,0 +1,62 @@
+{
+  "version": "4",
+  "specifiers": {
+    "jsr:@radashi-org/radashi@^12.3.0": "12.3.0",
+    "jsr:@std/path@^1.0.8": "1.0.8",
+    "npm:markdown-ast@0.3": "0.3.0",
+    "npm:turndown@^7.2.0": "7.2.0"
+  },
+  "jsr": {
+    "@radashi-org/radashi@12.3.0": {
+      "integrity": "2743e147dcc121a33890ec1e72dd3e2e678d2b74642626096cee4f7436f241f1"
+    },
+    "@std/path@1.0.8": {
+      "integrity": "548fa456bb6a04d3c1a1e7477986b6cffbce95102d0bb447c67c4ee70e0364be"
+    }
+  },
+  "npm": {
+    "@mixmark-io/domino@2.2.0": {
+      "integrity": "sha512-Y28PR25bHXUg88kCV7nivXrP2Nj2RueZ3/l/jdx6J9f8J4nsEGcgX0Qe6lt7Pa+J79+kPiJU3LguR6O/6zrLOw=="
+    },
+    "markdown-ast@0.3.0": {
+      "integrity": "sha512-tFydZe/NV56f2LdKr49zElVKnOt/sH8G1rQ0wl8+Xtylv0mbh9g20tUK9Ln5CvTOajeJdaK5oWcZosUBJRBEcg=="
+    },
+    "turndown@7.2.0": {
+      "integrity": "sha512-eCZGBN4nNNqM9Owkv9HAtWRYfLA4h909E/WGAWWBpmB275ehNhZyk87/Tpvjbp0jjNl9XwCsbe6bm6CqFsgD+A==",
+      "dependencies": [
+        "@mixmark-io/domino"
+      ]
+    }
+  },
+  "redirects": {
+    "https://esm.sh/@bbob/core@^4.1.1": "https://esm.sh/@bbob/core@4.2.0",
+    "https://esm.sh/@bbob/html@^4.1.1": "https://esm.sh/@bbob/html@4.2.0",
+    "https://esm.sh/@bbob/preset-html5@^4.1.1": "https://esm.sh/@bbob/preset-html5@4.2.0"
+  },
+  "remote": {
+    "https://esm.sh/@bbob/core@4.2.0": "482b00468673a372404bc75572cc070208851cbfa3ea86e69789b5b845bcd12d",
+    "https://esm.sh/@bbob/html@4.2.0": "0ce7021c238d368d178c8530d4401f18fac7faa301668164004a35bfce9168cb",
+    "https://esm.sh/@bbob/preset-html5@4.2.0": "af55c14e8863e995fe9c8d6f9c224925e5eb4bf4d424a00bb3af1759f4738d08",
+    "https://esm.sh/v135/@bbob/core@4.2.0/denonext/core.mjs": "04cae703400a3a9f4235b4254b30404771b39a96ecc9dceb0da278bbf746fe41",
+    "https://esm.sh/v135/@bbob/html@4.2.0/denonext/html.mjs": "dd2b22c0e46c61714b28f34a4ba1b0a57712bc86b606292bdd2b55aae4a8e0df",
+    "https://esm.sh/v135/@bbob/parser@4.2.0/denonext/Token.js": "a92c7eb9e3f8af3e4c4a04326af51ee4e419f974da996f3c2f2ef3644cfe93d2",
+    "https://esm.sh/v135/@bbob/parser@4.2.0/denonext/lexer.js": "72e193d687991a20248230269c9ef7bacebdd451244c31c77c7a50dbbeedac3d",
+    "https://esm.sh/v135/@bbob/parser@4.2.0/denonext/parse.js": "26f3a8f6f58df66509a97f119a8b67ae2f71dad1e92b7a2cc9c996c8f85763b9",
+    "https://esm.sh/v135/@bbob/parser@4.2.0/denonext/parser.mjs": "02428fc871ed5217b5893820fdb71ac70dc225d17dbf1cacfc9433dad5179ad4",
+    "https://esm.sh/v135/@bbob/parser@4.2.0/denonext/utils.js": "7f267ad0b8baa1d03d772c339ba4b157996f5ae72668b7daaa5f08e4c5b78c7f",
+    "https://esm.sh/v135/@bbob/plugin-helper@4.1.1/denonext/TagNode.js": "464a53c97c29bafe9769ad11c876723b066f1b052f41687c6d10f673d8ec0d36",
+    "https://esm.sh/v135/@bbob/plugin-helper@4.1.1/denonext/char.js": "b24a6398b51289f66b5251cb5880ed3bd9b0e2f2ce73d1779298115953a22416",
+    "https://esm.sh/v135/@bbob/plugin-helper@4.1.1/denonext/helpers.js": "857968b0acfc60008ac53e7c6c033316bbc27916e251d9632569202b7e17cf05",
+    "https://esm.sh/v135/@bbob/plugin-helper@4.1.1/denonext/plugin-helper.mjs": "6a1ee30ce80dd622637238589f45b24e0758c72bd32603af3ab30d671d9e9986",
+    "https://esm.sh/v135/@bbob/preset-html5@4.2.0/denonext/preset-html5.mjs": "01d89b1457dad36604492b5b3889e9808cd33826c68b1794a26c7fb8d32bf852",
+    "https://esm.sh/v135/@bbob/preset@4.1.1/denonext/preset.mjs": "871818742d7e6efbf77e18c024bfefefd6f69ce84048259b50ce053051aae835"
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@radashi-org/radashi@^12.3.0",
+      "jsr:@std/path@^1.0.8",
+      "npm:markdown-ast@0.3",
+      "npm:turndown@^7.2.0"
+    ]
+  }
+}

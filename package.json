@@ -1,0 +1,13 @@
+{
+	"name": "scripts",
+	"version": "0.1.0",
+	"author": "",
+	"license": "MIT",
+	"description": "",
+	"dependencies": {},
+	"devDependencies": {
+		"@pumpn/eslint-config": "^15.5.3",
+		"eslint": "9.14.0"
+	},
+	"type": "module"
+}
