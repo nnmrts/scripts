@@ -2,7 +2,8 @@
 	"tasks": {
 		"convert-bbcode-to-markdown": "deno run -A --env ./scripts/convert-bbcode-to-markdown.js",
 		"convert-markdown-to-bbcode": "deno run -A --env ./scripts/convert-markdown-to-bbcode.js",
-		"modrinth-binary-search": "deno run -A --env ./scripts/modrinth-binary-search.js"
+		"modrinth-binary-search": "deno run -A --env ./scripts/modrinth-binary-search.js",
+		"transcribe-audio": "deno run -A --env ./scripts/transcribe-audio.js"
 	},
 	"imports": {
 		"@bbob/core": "https://esm.sh/@bbob/core@^4.1.1",
